@@ -29,4 +29,4 @@ node scripts/verify.mjs   # headless end-to-end test at iPhone size, writes shot
 
 ## Deploy
 
-Pushing to `main` builds and publishes to GitHub Pages via `.github/workflows/pages.yml`.
+Pages serves the `gh-pages` branch (the built `dist/` folder). To update: `npm run build`, then publish `dist/` to `gh-pages`.
